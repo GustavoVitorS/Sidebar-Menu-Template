@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+:root {
+    --first-color: #d6e4e5;
+    --title-color: #50577a;
+    --text-color: #ffff;
+    --body-color: #393e46;
+    --container-color: #282a3a;
+
+    --body-font: 'Bebas Neue', cursive;
+    --normal-font-size: 0.938rem;
+
+    @media screen and (min-width: 968px) {
+        --normal-font-size: 1rem;
+    }
+}
